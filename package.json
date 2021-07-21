@@ -4,12 +4,15 @@
   "workspaces": {
     "packages": [
       "app-shell",
-      "app-1"
+      "app-1",
+      "app-2",
+      "app-3"
     ]
   },
   "scripts": {
     "start": "lerna run --parallel start",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "install": "lerna run install"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
