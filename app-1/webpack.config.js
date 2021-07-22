@@ -43,6 +43,9 @@ module.exports = {
       shared: {
         ...deps,
         react: {
+          import: 'react',
+          shareKey: 'react',
+          shareScope: 'default',
           singleton: true,
           eager: true,
           requiredVersion: deps.react
